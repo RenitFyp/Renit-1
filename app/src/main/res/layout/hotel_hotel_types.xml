@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:background="@color/colortop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Hostel and Hotels Catagories"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        ></TextView>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/hotelform_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hotels"
+            android:textSize="25sp"
+            android:layout_marginTop="5dp"
+            ></TextView>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colortop"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:id="@+id/hostelsform_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Hostels"
+            android:textSize="25sp"
+
+            ></TextView>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colortop"
+            android:layout_marginTop="10dp"
+            />
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
